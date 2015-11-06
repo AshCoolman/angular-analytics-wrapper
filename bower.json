@@ -1,9 +1,9 @@
 {
   "name": "angular-analytics-wrapper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A wrapper for any typical analyics platform",
   "authors": [
-    "Ashley Coleman <writetofish@gmail.com> (http://ashcoolman.com)",
+    "Ashley Coleman <writetofish@gmail.com> (http://ashcoolman.com)"    
   ],
   "description": "An angular 1.x wrapper for common analytics platforms",
   "main": "dist/angular-analytics-wrapper.js",
