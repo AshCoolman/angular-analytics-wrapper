@@ -1,8 +1,9 @@
 {
   "name": "angular-analytics-wrapper",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "A wrapper for any typical analyics platform",
   "authors": [
-    "Ashley Coleman <writetofish@ashcoolman.com>"
+    "Ashley Coleman <writetofish@gmail.com> (http://ashcoolman.com)",
   ],
   "description": "An angular 1.x wrapper for common analytics platforms",
   "main": "dist/angular-analytics-wrapper.js",
@@ -10,12 +11,13 @@
     "angular",
     "analytics"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",   
     "test",
     "tests"
-  ]
+  ],
+  "respository": "https://github.com/AshCoolman/angular-analytics-wrapper.git"
 }
