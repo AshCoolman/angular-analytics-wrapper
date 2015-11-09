@@ -6,6 +6,11 @@ AnalyticsService = function(api) {
   this.track = api.track;
   this.identify = api.identify;
   this.isActive = api.isActive;
+  this.setApiMethod = (function(_this) {
+    return function(name, method) {
+      return _this[name] = method;
+    };
+  })(this);
   return this;
 };
 
@@ -25,9 +30,6 @@ AnalyticsProvider = (function(_this) {
         return null;
       }
       return _this.api.applyScript();
-    };
-    _this.setApiMethod = function(name, method) {
-      return _this.api[name] = method;
     };
     _this.$get = function($location, $routeParams) {
       if (!_this.api.isActive()) {
