@@ -3,6 +3,8 @@ AnalyticsService = (api) ->
     @track = api.track
     @identify = api.identify
     @isActive = api.isActive
+    @setApiMethod = (name, method) =>
+        @[name] = method
     @
 
 # Provider
@@ -23,8 +25,7 @@ AnalyticsProvider = =>
         return null unless @api.isActive()
         @api.applyScript()
 
-    @setApiMethod = (name, method) =>
-        @api[name] = method
+
 
     # Service creation
     @$get = ($location, $routeParams) =>
