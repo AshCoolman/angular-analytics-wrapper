@@ -1,6 +1,6 @@
 {
   "name": "angular-analytics-wrapper",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "A wrapper for any typical analyics platform",
   "authors": [
     "Ashley Coleman <writetofish@gmail.com> (http://ashcoolman.com)"    
